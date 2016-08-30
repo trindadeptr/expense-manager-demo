@@ -1,6 +1,10 @@
 {
   "entrypoint": "index.html",
   "shell": "src/expense-app.html",
+  "includeDependencies": [
+    "bower_components/webcomponentsjs/webcomponents-lite.js",
+    "images/default-receipt.png"
+  ],
   "fragments": [
     "src/overview-page.html"
   ]
